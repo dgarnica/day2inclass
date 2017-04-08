@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -13,11 +14,24 @@
     <!-- Navigation -->
     <header>
       <nav class="navbar">
-        <ul class="row">
+        <ul class="hidden-xs row">
           <li class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="#">Home</a></li>
           <li class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="#">About</a></li>
           <li class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="#">Contact</a></li>
         </ul>
+
+        <div id="nav-dropdown" class="btn-group hidden-sm-up visible-xs" role="group">
+          <button type="button" id="nav-button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="fa fa-bars fa-3x"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <div class="row">
+              <li><a class="nav-drop-item col-xs-4" href="#">Dropdown link</a></li>
+              <li><a class="nav-drop-item col-xs-4" href="#">Dropdown link</a></li>
+              <li><a class="nav-drop-item col-xs-4" href="#">Dropdown link</a></li>
+            </div>
+          </ul>
+        </div>
       </nav>
     </header>
 

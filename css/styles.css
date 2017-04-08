@@ -11,13 +11,14 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-size: 1.5em;
   background-color: #333333;
+  height: 4em;
 }
 
 nav>ul {
   list-style: none;
-  padding: 0.5em 0.5em 0em 0.5em;
   text-align: center;
   line-height: 3;
+  padding: 0.5em 0.5em 0em 0.5em;
 }
 
 nav>ul a {
@@ -28,4 +29,43 @@ nav>ul a {
 nav>ul a:hover, a:active, a:focus, a:visited {
   text-decoration: none;
   color: #0af;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: #333;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+#nav-dropdown {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.55em;
+  background-color: transparent;
+}
+
+#nav-button {
+  background-color: transparent;
+}
+
+.row {
+  width: 100%;
+}
+.dropdown-menu {
+  text-align: center;
+}
+
+.dropdown-menu>.row li{
+  background-color: #333;
+  margin: 0;
+}
+
+.nav-drop-item {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
