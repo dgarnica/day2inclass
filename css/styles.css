@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+/*// Multi Use //*/
+.clear-floats {
+  clear: both;
+}
+
+/*/// Body Begin ///*/
 
 body {
   margin: 0em;
@@ -108,4 +114,13 @@ aside {
   height: 4em;
   transform: translateX(45%);
   margin-top: 7em;
+}
+
+footer {
+  position: relative;
+  margin-top: 1.85em;
+  border-top: 0.15em solid #111111;
+  height: 5em;
+  width: 100%;
+  background-color: blue;
 }
