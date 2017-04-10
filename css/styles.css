@@ -2,23 +2,29 @@
 
 body {
   margin: 0em;
+  overflow-x: hidden;
   cursor: default;
 }
 
 /*/// Header and Navigation ///*/
-
+header {
+  height: 14em;
+  background-color: #333333;
+}
 nav {
+  position: relative;
+  height: 1.5em;
   font-family: 'Poppins', sans-serif;
   font-size: 1.5em;
-  background-color: #333333;
-  height: 4em;
+  background-color: #222222;
+  top: 9.35em;
 }
 
 nav>ul {
   list-style: none;
   text-align: center;
-  line-height: 3;
-  padding: 0.5em 0.5em 0em 0.5em;
+  line-height: 1.55;
+  padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 nav>ul a {
@@ -44,7 +50,6 @@ nav>ul a:hover, a:active, a:focus, a:visited {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 0.55em;
   background-color: transparent;
 }
 
@@ -68,4 +73,39 @@ nav>ul a:hover, a:active, a:focus, a:visited {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
+}
+
+/*/// Main Begin ///*/
+
+main {
+  position: relative;
+  margin-top: 3.5em;
+  height: 45em;
+  left: 1.05em;
+}
+
+/*// Content and Aside //*/
+
+content {
+  background-color: #666666;
+  height: 45em;
+  margin: 0;
+}
+
+aside {
+  background-color: #444444;
+  height: 45em;
+}
+
+#promo-wrapper {
+  position: relative;
+  height: 15em;
+  width: 100%;
+  background-color: red;
+}
+
+#promo-wrapper div {
+  height: 4em;
+  transform: translateX(45%);
+  margin-top: 7em;
 }
