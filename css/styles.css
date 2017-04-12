@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/*// Multi Use //*/
+.clear-floats {
+  clear: both;
+}
+
+/*/// Body Begin ///*/
+
+body {
+  margin: 0em;
+  overflow-x: hidden;
+  cursor: default;
+}
+
+/*/// Header and Navigation ///*/
+header {
+  height: 14em;
+  background-color: #333333;
+}
+nav {
+  position: relative;
+  height: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  background-color: #222222;
+  top: 9.35em;
+}
+
+nav>ul {
+  list-style: none;
+  text-align: center;
+  line-height: 1.55;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+nav>ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav>ul a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  color: #0af;
+}
+
+.dropdown-menu {
+  position: inherit;
+  z-index: inherit;
+  background-color: #333;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+#nav-dropdown {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+}
+
+#nav-button {
+  position: relative;
+  background-color: transparent;
+  z-index: 3;
+}
+
+.row {
+  width: 100%;
+}
+.dropdown-menu {
+  text-align: center;
+}
+
+.dropdown-menu>.row li{
+  background-color: #333;
+  margin: 0;
+}
+
+.nav-drop-item {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+/*/// Main Begin ///*/
+
+main {
+  position: relative;
+  margin-top: 3.5em;
+  height: 45em;
+  left: 1.05em;
+}
+
+/*// Content and Aside //*/
+
+content {
+  background-color: #666666;
+  height: 45em;
+  margin: 0;
+}
+
+aside {
+  background-color: #444444;
+  height: 45em;
+}
+
+#promo-wrapper {
+  position: relative;
+  height: 15em;
+  width: 100%;
+  background-color: red;
+}
+
+#promo-wrapper div {
+  height: 4em;
+  transform: translateX(45%);
+  margin-top: 7em;
+}
+
+footer {
+  position: relative;
+  margin-top: 1.85em;
+  border-top: 0.15em solid #111111;
+  height: 5em;
+  width: 100%;
+  background-color: blue;
+}
