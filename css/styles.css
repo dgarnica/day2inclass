@@ -43,8 +43,9 @@ nav>ul a:hover, a:active, a:focus, a:visited {
   color: #0af;
 }
 
-.dropdown {
-  position: absolute;
+.dropdown-menu {
+  position: inherit;
+  z-index: inherit;
   background-color: #333;
 }
 
@@ -60,7 +61,9 @@ nav>ul a:hover, a:active, a:focus, a:visited {
 }
 
 #nav-button {
+  position: relative;
   background-color: transparent;
+  z-index: 3;
 }
 
 .row {
